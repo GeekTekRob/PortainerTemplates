@@ -64,7 +64,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a466"
       },
-      "categories": ["Other", "Tools", "Authentication"],
+      "categories": ["Security", "Tools"],
       "description": "An open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal.",
       "env": [
         {
@@ -178,7 +178,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a451"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Security", "Tools"],
       "description": "This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal..",
       "image": "bitwardenrs/server:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/bitwarden.png",
@@ -200,7 +200,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a469"
       },
-      "categories": ["Books", "Other"],
+      "categories": ["Books"],
       "description": "Booksonic is a server and an app for streaming your audiobooks to any pc or android phone. Most of the functionality is also availiable on other platforms that have apps for subsonic",
       "env": [
         {
@@ -330,7 +330,7 @@
       "type": 1,
       "title": "Caddy",
       "description": "Open-source web server with automatic HTTPS written in Go",
-      "categories": ["webserver"],
+      "categories": ["Server"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/caddy.png",
       "image": "caddy:latest",
@@ -382,7 +382,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a48b"
       },
-      "categories": ["Downloaders"],
+      "categories": ["Download"],
       "description": "Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format.",
       "env": [
         {
@@ -472,7 +472,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a489"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Save recipes in seconds with plain text formatting and create beatiful recipe pages with automated ease.",
       "image": "gregyankovoy/chowdown:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/chowdown.png",
@@ -495,7 +495,7 @@
       },
       "type": 4,
       "title": "CockroachDB",
-      "categories": ["database"],
+      "categories": ["Database"],
       "description": "CockroachDB cluster",
       "note": "Deploys an insecure CockroachDB cluster, please refer to <a href=\"https://www.cockroachlabs.com/docs/stable/orchestrate-cockroachdb-with-docker-swarm.html\" target=\"_blank\">CockroachDB documentation</a> for production deployments.",
       "stackfile": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Stacks/cockroachdb/edge/docker-stack.yml"
@@ -504,7 +504,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a48c"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Code-server is VS Code running on a remote server, accessible through the browser.",
       "env": [
         {
@@ -590,7 +590,7 @@
       "type": 1,
       "title": "CommandBox",
       "description": "ColdFusion (CFML) CLI",
-      "categories": ["development"],
+      "categories": ["Development"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ortussolutions-commandbox.png",
       "image": "ortussolutions/commandbox:latest",
@@ -645,7 +645,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a48f"
       },
-      "categories": ["Downloaders", "Video"],
+      "categories": ["Download", "Video"],
       "description": "CouchPotato (CP) is an automatic NZB and torrent downloader. You can keep a \"movies I want\"-list and it will search for NZBs/torrents of these movies every X hours. Once a movie is found, it will send it to SABnzbd or download the torrent to a specified directory.",
       "env": [
         {
@@ -689,7 +689,7 @@
       "type": 1,
       "title": "CrateDB",
       "description": "An open-source distributed SQL database",
-      "categories": ["database"],
+      "categories": ["Database"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cratedb.png",
       "image": "crate:latest",
@@ -740,7 +740,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a45a"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Another application bookmark dashboard, with fun features.",
       "image": "rmountjoy/dashmachine:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/dashmachine_logo.png",
@@ -782,7 +782,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a492"
       },
-      "categories": ["FTP", "Other", "Tools"],
+      "categories": ["FTP", "Tools"],
       "description": "davos is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.\r\n\r\n/config : AppData Location\r\n/download : File Download Location",
       "env": [
         {
@@ -819,7 +819,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a493"
       },
-      "categories": ["Other", "Music"],
+      "categories": ["Download", "Music"],
       "description": "Deemix is a deezer downloader built from the ashes of Deezloader Remix.",
       "image": "registry.gitlab.com/bockiii/deemix-docker",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/deemix.png",
@@ -845,7 +845,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a494"
       },
-      "categories": ["Downloaders"],
+      "categories": ["Download"],
       "description": "Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing: Full Encryption, WebUI, Plugin System, Much more...",
       "env": [
         {
@@ -886,7 +886,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4c3"
       },
-      "categories": ["Other", "VPN", "Tools"],
+      "categories": ["Security", "Download"],
       "description": "This container contains OpenVPN and Deluge with a configuration where Deluge is running only when OpenVPN has an active tunnel. It bundles configuration files for many popular VPN providers to make the setup easier.",
       "env": [
         {
@@ -1100,7 +1100,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a45b"
       },
-      "categories": ["Backup", "Cloud", "Other", "Productivity", "Tools"],
+      "categories": ["Backup", "Cloud", "Productivity", "Tools"],
       "description": "Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.",
       "env": [
         {
@@ -1145,7 +1145,7 @@
       "type": 1,
       "title": "Elasticsearch",
       "description": "Open-source search and analytics engine",
-      "categories": ["database"],
+      "categories": ["Database"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/elasticsearch.png",
       "image": "docker.elastic.co/elasticsearch/elasticsearch:7.15.1",
@@ -1205,7 +1205,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a452"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Embystat is a personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.",
       "image": "linuxserver/embystat:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/embystat.png",
@@ -1255,7 +1255,7 @@
       "title": "File browser",
       "description": "A web file manager",
       "note": "Default credentials: admin/admin",
-      "categories": ["filesystem", "storage"],
+      "categories": ["Storage"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/filebrowser.png",
       "image": "filebrowser/filebrowser:latest",
@@ -1274,7 +1274,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a497"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Web File Browser which can be used as a middleware or standalone app.",
       "image": "80x86/filebrowser:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/filebrowser.png",
@@ -1300,7 +1300,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a498"
       },
-      "categories": ["Other"],
+      "categories": ["RSS"],
       "description": "A free, self-hostable rss aggregator…",
       "env": [
         {
@@ -1376,7 +1376,7 @@
       "type": 1,
       "title": "Ghost",
       "description": "Free and open-source blogging platform",
-      "categories": ["blog"],
+      "categories": ["CMS"],
       "note": "Access the blog management interface under <code>/ghost/</code>.",
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ghost.png",
@@ -1396,7 +1396,7 @@
       "title": "Gitlab CE",
       "description": "Open-source end-to-end software development platform",
       "note": "Default username is <b>root</b>. Check the <a href=\"https://docs.gitlab.com/omnibus/docker/README.html#after-starting-a-container\" target=\"_blank\">Gitlab documentation</a> to get started.",
-      "categories": ["development", "project-management"],
+      "categories": ["Development"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/gitlab_ce.png",
       "image": "gitlab/gitlab-ce:latest",
@@ -1417,7 +1417,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a49a"
       },
-      "categories": ["Other", "Tools", "Finance"],
+      "categories": ["Tools", "Finance"],
       "description": "Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utulity.",
       "env": [
         {
@@ -1454,7 +1454,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a49b"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "A clientless remote desktop gateway.",
       "image": "oznu/guacamole:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/guacamole.png",
@@ -1476,7 +1476,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a49c"
       },
-      "categories": ["Video", "Music", "Other"],
+      "categories": ["Video", "Music"],
       "description": "HTPC Manaager, a front end for many htpc related applications. Hellowlol version.",
       "env": [
         {
@@ -1550,7 +1550,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a46b"
       },
-      "categories": ["Tools", "Web", "Other"],
+      "categories": ["Tools", "Web"],
       "description": "Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way.",
       "env": [
         {
@@ -1583,7 +1583,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a46c"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "A dead simple static HOMepage for your servER to keep your s ervices on hand, from a simple yaml configuration file.",
       "image": "b4bz/homer:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/homer.png",
@@ -1612,7 +1612,7 @@
       "type": 1,
       "title": "Httpd",
       "description": "Open-source HTTP server",
-      "categories": ["webserver"],
+      "categories": ["Server"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/httpd.png",
       "image": "httpd:latest",
@@ -1627,7 +1627,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a46d"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Create agents that monitor and act on your behalf.",
       "image": "huginn/huginn:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/huginn.png",
@@ -1648,7 +1648,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a46e"
       },
-      "categories": ["Cloud", "Productivity", "Tools", "Other", "Web"],
+      "categories": ["Cloud", "Productivity", "Tools", "Web"],
       "description": "Invoices, Expenses and Tasks built with Laravel and Flutter.",
       "env": [
         {
@@ -1708,7 +1708,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a453"
       },
-      "categories": ["Downloaders", "Tools"],
+      "categories": ["Download"],
       "description": "Jackett works as a proxy server it translates queries from apps like Sonarr etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.[",
       "env": [
         {
@@ -1793,7 +1793,7 @@
       "type": 1,
       "title": "Jenkins",
       "description": "Open-source continuous integration tool",
-      "categories": ["continuous-integration"],
+      "categories": ["Development"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/jenkins.png",
       "image": "jenkins/jenkins:lts-jdk11",
@@ -1976,7 +1976,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a474"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "A Free and Open Source Speedtest for HTML5 and more.",
       "image": "lscr.io/linuxserver/librespeed:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/speedtest.png",
@@ -2034,7 +2034,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a475"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "An Enhanced drop in replacement for Mysql",
       "env": [
         {
@@ -2101,7 +2101,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a476"
       },
-      "categories": ["Other"],
+      "categories": ["Gaming", "Tools"],
       "description": "McMyAdmin 2 is the leading web control panel and administration console for Minecraft servers.",
       "env": [
         {
@@ -2133,7 +2133,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a477"
       },
-      "categories": ["Downloaders", "Video"],
+      "categories": ["Download", "Video"],
       "description": "Medusa, automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
       "env": [
         {
@@ -2201,7 +2201,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a478"
       },
-      "categories": ["Other"],
+      "categories": ["Gaming"],
       "description": "Server version of minetest, a free, open source alternative to minecraft.",
       "env": [
         {
@@ -2236,7 +2236,7 @@
       "type": 1,
       "title": "Minio",
       "description": "A distributed object storage server built for cloud applications and devops",
-      "categories": ["storage"],
+      "categories": ["Storage"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/minio.png",
       "image": "quay.io/minio/minio:latest",
@@ -2265,7 +2265,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a479"
       },
-      "categories": ["Video", "Other", "Tools"],
+      "categories": ["Video", "Tools"],
       "description": "Minisatip is a multi-threaded satip server version 1.2 that runs under Linux and it was tested with DVB-S, DVB-S2, DVB-T, DVB-T2, DVB-C, DVB-C2, ATSC and ISDB-T cards.\n\n  The application is designed to stream the requested data to multiple clients (even with one dvb card) at the same time while opening different pids.\n  ",
       "env": [
         {
@@ -2295,7 +2295,7 @@
       "type": 1,
       "title": "Mongo",
       "description": "Open-source document-oriented database",
-      "categories": ["database"],
+      "categories": ["Database"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mongo.png",
       "image": "mongo:latest",
@@ -2310,7 +2310,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a47a"
       },
-      "categories": ["Other", "Music"],
+      "categories": ["Music"],
       "description": "Mstream is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere. There are mobile apps available for both Android and iPhone..",
       "image": "lscr.io/linuxserver/mstream:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/mstream.png",
@@ -2335,7 +2335,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a47b"
       },
-      "categories": ["Other", "Voice", "Chat"],
+      "categories": ["Voice", "Chat"],
       "description": "Mumble is a voicechat program for gamers written on top of Qt and Opus. Murmur is the server backend for Mumble.",
       "env": [
         {
@@ -2384,7 +2384,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a47c"
       },
-      "categories": ["Music", "Other", "Tools"],
+      "categories": ["Music", "Tools"],
       "description": " MusicBrainz is an open music encyclopedia that collects music metadata and makes it available to the public.",
       "env": [
         {
@@ -2426,7 +2426,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a47d"
       },
-      "categories": ["Web", "Proxy", "Other", "Tools"],
+      "categories": ["Web", "Proxy", "Tools"],
       "description": "A lightweight portal to view, manage your HTPC apps without having to run anything more than a PHP enabled webserver. With Muximux you don't need to keep multiple tabs open, or bookmark the URL to all of your apps.",
       "env": [
         {
@@ -2462,7 +2462,7 @@
       "type": 1,
       "title": "MySQL",
       "description": "The most popular open-source database",
-      "categories": ["database"],
+      "categories": ["Database"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mysql.png",
       "image": "mysql/mysql-server:5.7",
@@ -2488,7 +2488,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a47e"
       },
-      "categories": ["Downloaders", "Books"],
+      "categories": ["Download", "Books"],
       "description": "An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents.",
       "env": [
         {
@@ -2529,7 +2529,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a481"
       },
-      "categories": ["Downloaders"],
+      "categories": ["Download"],
       "description": "NZBGet is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources. It supports all platforms including Windows, Mac, Linux and works on all devices including PC, NAS, WLAN routers and media players",
       "env": [
         {
@@ -2566,7 +2566,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a482"
       },
-      "categories": ["Downloaders", "Other", "Tools"],
+      "categories": ["Download"],
       "description": "NZBHydra is a meta search for NZB indexers and the \"spiritual successor\" to NZBmegasearcH. It provides easy access to a number of raw and newznab based indexers.",
       "env": [
         {
@@ -2603,7 +2603,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a455"
       },
-      "categories": ["Cloud", "Productivity", "Tools", "Other", "Web"],
+      "categories": ["Cloud", "Productivity", "Tools", "Web"],
       "description": "Where are your photos and documents? With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices.",
       "env": [
         {
@@ -2705,7 +2705,7 @@
       "type": 1,
       "title": "NodeJS",
       "description": "JavaScript-based platform for server-side and networking applications",
-      "categories": ["development"],
+      "categories": ["Development"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/node.png",
       "image": "node:latest",
@@ -2715,7 +2715,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a486"
       },
-      "categories": ["Other"],
+      "categories": ["Video"],
       "description": "OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module\n  (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source. Hence, the name Open Source Conditional Access Module (OScam). OScam is based on the\n  not so well known softcam MpCS. The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver.",
       "env": [
         {
@@ -2748,7 +2748,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a483"
       },
-      "categories": ["Downloaders", "Other", "Video", "Tools"],
+      "categories": ["Download", "Video"],
       "description": "Ombi allows you to host your own Plex Request and user management system. ",
       "env": [
         {
@@ -2847,7 +2847,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a457"
       },
-      "categories": ["Other"],
+      "categories": ["Security"],
       "description": "OpenVPN Access Server is a full featured secure network tunneling VPN software solution that integrates OpenVPN server capabilities, enterprise management capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments.",
       "env": [
         {
@@ -2885,7 +2885,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a485"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Organizr allows you to setup Tabs that will be loaded all in one webpage. You can then work on your server with ease.",
       "env": [
         {
@@ -3012,7 +3012,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a49e"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole.",
       "image": "pihole/pihole:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/pihole.png",
@@ -3122,7 +3122,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4a1"
       },
-      "categories": ["Downloaders", "Other", "Video", "Tools"],
+      "categories": ["Download", "Video"],
       "description": "Simple automated way for users to request new content for Plex.",
       "env": [
         {
@@ -3198,7 +3198,7 @@
       "type": 1,
       "title": "PostgreSQL",
       "description": "The most advanced open-source database",
-      "categories": ["database"],
+      "categories": ["Database"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/postgres.png",
       "image": "postgres:latest",
@@ -3223,7 +3223,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4a4"
       },
-      "categories": ["VPN", "Tools", "Other", "Web"],
+      "categories": ["Security", "Networking"],
       "description": "Pritunl container built on Alpine Linux. Supports IPv6 and running behind a reverse proxy. This container requires an external Mongo DB and should be run via Docker Compose or other orchestration.",
       "env": [
         {
@@ -3261,7 +3261,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4a2"
       },
-      "categories": ["Cloud", "Productivity", "Tools", "Other"],
+      "categories": ["Cloud", "Productivity", "Tools"],
       "description": "ProjectSend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself! Secure, private and easy. No more depending on external services or e-mail to send those files!\n  ",
       "env": [
         {
@@ -3298,7 +3298,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4a3"
       },
-      "categories": ["Email", "Productivity", "Tools", "Other"],
+      "categories": ["Email", "Productivity", "Tools"],
       "description": "This is an unofficial Docker container of the ProtonMail Bridge. Some of the scripts are based on Hendrik Meyer's work.",
       "image": "shenxn/protonmail-bridge:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/protonmail-bridge.png",
@@ -3320,7 +3320,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4a5"
       },
-      "categories": ["Cloud", "Other"],
+      "categories": ["Cloud"],
       "description": "Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.",
       "env": [
         {
@@ -3408,8 +3408,8 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a45f"
       },
-      "categories": ["Downloaders", "Video"],
-      "description": "Radarr - A fork of Sonarr to work with movies Ã  la Couchpotato.",
+      "categories": ["Download", "Video"],
+      "description": "Radarr - A fork of Sonarr to work with movies.",
       "env": [
         {
           "default": "998",
@@ -3449,7 +3449,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4a9"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "A one-of-a-kind resume builder that's not out to get your data. Completely secure, customizable, portable, open-source and free forever.",
       "image": "amruthpillai/reactive-resume:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/reactiveresume.png",
@@ -3473,7 +3473,7 @@
       "type": 1,
       "title": "Redis",
       "description": "Open-source in-memory data structure store",
-      "categories": ["database"],
+      "categories": ["Database"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/redis.png",
       "image": "redis:latest",
@@ -3491,7 +3491,7 @@
       "type": 2,
       "title": "Redis Cluster",
       "description": "Open-source in-memory data structure store - Cluster mode",
-      "categories": ["database"],
+      "categories": ["Database"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/redis.png",
       "repository": {
@@ -3531,7 +3531,7 @@
       "type": 1,
       "title": "Registry",
       "description": "Docker image registry",
-      "categories": ["docker"],
+      "categories": ["Docker"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/registry.png",
       "image": "registry:latest",
@@ -3546,7 +3546,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4aa"
       },
-      "categories": ["Backup", "Cloud", "Other", "Tools"],
+      "categories": ["Backup", "Cloud", "Tools"],
       "description": "Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both.",
       "env": [
         {
@@ -3585,7 +3585,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4ac"
       },
-      "categories": ["Downloaders"],
+      "categories": ["Download"],
       "description": "SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.",
       "env": [
         {
@@ -3629,7 +3629,7 @@
       "type": 1,
       "title": "SQL Server (Linux)",
       "description": "Microsoft SQL Server on Linux",
-      "categories": ["database"],
+      "categories": ["Database"],
       "platform": "linux",
       "note": "Password needs to include at least 8 characters including uppercase, lowercase letters, base-10 digits and/or non-alphanumeric symbols.",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
@@ -3654,7 +3654,7 @@
       "type": 1,
       "title": "SQL Server (Windows)",
       "description": "Microsoft SQL Server Developer for Windows containers",
-      "categories": ["database"],
+      "categories": ["Database"],
       "platform": "windows",
       "note": "Password needs to include at least 8 characters including uppercase, lowercase letters, base-10 digits and/or non-alphanumeric symbols.",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
@@ -3684,7 +3684,7 @@
       "type": 1,
       "title": "SQL Server Express",
       "description": "Microsoft SQL Server Express for Windows containers",
-      "categories": ["database"],
+      "categories": ["Database"],
       "platform": "windows",
       "note": "Password needs to include at least 8 characters including uppercase, lowercase letters, base-10 digits and/or non-alphanumeric symbols.",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/microsoft.png",
@@ -3714,7 +3714,7 @@
       "type": 1,
       "title": "Scality S3",
       "description": "Standalone AWS S3 protocol server",
-      "categories": ["storage"],
+      "categories": ["Storage"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/scality-s3.png",
       "image": "scality/s3server",
@@ -3767,7 +3767,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4ad"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Shiori is a simple bookmarks manager written in Go language. Intended as a simple clone of Pocket. You can use it as command line application or as web application.",
       "image": "radhifadlillah/shiori:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/shiori-icon.png",
@@ -3788,7 +3788,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4ae"
       },
-      "categories": ["Downloaders", "Video"],
+      "categories": ["Download", "Video"],
       "description": "Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.",
       "env": [
         {
@@ -3829,7 +3829,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4af"
       },
-      "categories": ["Downloaders", "Video"],
+      "categories": ["Download", "Video"],
       "description": "SickGear provides management of TV shows and/or Anime, it detects new episodes, links downloader apps, and more.",
       "env": [
         {
@@ -3907,7 +3907,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a488"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Self-hosted snippet manager.",
       "image": "snowmean/snibox-sqlite:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/snibox.png",
@@ -3932,7 +3932,7 @@
       "type": 1,
       "title": "Solr",
       "description": "Open-source enterprise search platform",
-      "categories": ["search-engine"],
+      "categories": ["Search"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/solr.png",
       "image": "solr:latest",
@@ -3947,7 +3947,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4b1"
       },
-      "categories": ["Downloaders", "Video"],
+      "categories": ["Download", "Video"],
       "description": "Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
       "env": [
         {
@@ -3992,7 +3992,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4b2"
       },
-      "categories": ["Backup", "Cloud", "Other", "Tools"],
+      "categories": ["Backup", "Cloud", "Tools"],
       "description": null,
       "env": [
         {
@@ -4028,7 +4028,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4b3"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Tautulli is a 3rd party application that you can run along side your Plex Media Server to monitor activity and track various statistics. Most importantly, these statistics include what has been watched, who watched it, when and where they watched it, and how it was watched. All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.[br][br]\r\n  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]\r\n  [b]8181[/b] The webui for Tautulli's webui [br]\r\n  [b]/config[/b] Storing Configuration and the Tautulli database[br]\r\n[b]/logs[/b] Map to you plex logs (required for IP logging)[br]\r\n\r\n",
       "env": [
         {
@@ -4098,7 +4098,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4b5"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Wiki", "Tools"],
       "description": "A unique, non-linear notebook wiki.",
       "image": "mazzolino/tiddlywiki:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/tiddlywiki.png",
@@ -4152,7 +4152,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4b6"
       },
-      "categories": ["Downloaders"],
+      "categories": ["Download"],
       "description": "Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.",
       "env": [
         {
@@ -4192,7 +4192,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4b7"
       },
-      "categories": ["Other", "VPN", "Tools"],
+      "categories": ["Security", "Download"],
       "description": "This container contains OpenVPN and Transmission with a configuration\nwhere Transmission is running only when OpenVPN has an active tunnel.\nIt bundles configuration files for many popular VPN providers to make the setup easier.",
       "env": [
         {
@@ -4333,7 +4333,7 @@
       "type": 1,
       "title": "Ubuntu",
       "description": "Debian-based Linux operating system",
-      "categories": ["operating-system"],
+      "categories": ["Operating System"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/ubuntu.png",
       "image": "ubuntu:latest",
@@ -4464,7 +4464,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a462"
       },
-      "categories": ["Other", "Tools", "Maintenance"],
+      "categories": ["Tools", "Maintenance"],
       "description": "With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry. Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.",
       "image": "containrrr/watchtower:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/watchtower.png",
@@ -4485,7 +4485,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4be"
       },
-      "categories": ["Downloaders"],
+      "categories": ["Download"],
       "description": "WebGrab+Plus is a multi-site incremental xmltv epg grabber. It collects tv-program guide data from selected tvguide sites for your favourite channels.[br]\r\n\t\tOptional postprocessors to add IMDb data or to customize your xmltv listing.[br]\r\n\t\thttp://www.webgrabplus.com/[br]\r\n\t\t[b][span style='color: #E80000;']Directions:[/span][/b][br]\r\n\t\t[b]/config[/b] : This is where WebGrab+Plus will store it's configuration.[br][br]\r\n\t\t[b]/data[/b] : This is where tv_grab_wg script in the Tvheadend container looks for the guide.xml file.[br][br]",
       "env": [
         {
@@ -4521,7 +4521,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a463"
       },
-      "categories": ["Other", "Tools"],
+      "categories": ["Tools"],
       "description": "Self-hosted, ad-free, privacy-respecting Google metasearch engine.",
       "image": "benbusby/whoogle-search:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/whoogle.png",
@@ -4625,7 +4625,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a464"
       },
-      "categories": ["Other", "Downloaders"],
+      "categories": ["Download"],
       "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend.",
       "image": "tzahi12345/youtubedl-material:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/ytdlm.png",
@@ -4695,7 +4695,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a49d"
       },
-      "categories": ["Downloaders", "Music"],
+      "categories": ["Download", "Music"],
       "description": "Lidarr is a music collection manager for Usenet and BitTorrent users.",
       "env": [
         {
@@ -4736,7 +4736,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4a6"
       },
-      "categories": ["Downloaders"],
+      "categories": ["Download"],
       "description": "The qBittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.",
       "env": [
         {
@@ -4773,7 +4773,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a45e"
       },
-      "categories": ["Downloaders"],
+      "categories": ["Download"],
       "description": "The qBittorrent project aims to provide an open-source software alternative to ÂµTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.",
       "env": [
         {
@@ -4844,7 +4844,7 @@
       "_id": {
         "$oid": "62a7f55bfc81c3f70614a4ab"
       },
-      "categories": ["Downloaders"],
+      "categories": ["Download"],
       "description": "Popular torrent client with a webui for ease of use.",
       "env": [
         {
