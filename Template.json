@@ -42,7 +42,7 @@
       "type": 1,
       "title": "Nginx",
       "description": "High performance web server",
-      "categories": ["webserver"],
+      "categories": ["Webserver"],
       "platform": "linux",
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/nginx.png",
       "image": "nginx:latest",
@@ -103,27 +103,6 @@
           "name": "MYSQL_ROOT_HOST",
           "default": "%",
           "preset": true
-        }
-      ],
-      "ports": ["3306/tcp"],
-      "volumes": [
-        {
-          "container": "/var/lib/mysql"
-        }
-      ]
-    },
-    {
-      "type": 1,
-      "title": "MariaDB",
-      "description": "Performance beyond MySQL",
-      "categories": ["database"],
-      "platform": "linux",
-      "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
-      "image": "mariadb:latest",
-      "env": [
-        {
-          "name": "MYSQL_ROOT_PASSWORD",
-          "label": "Root password"
         }
       ],
       "ports": ["3306/tcp"],
@@ -1251,7 +1230,7 @@
       "type": 3
     },
     {
-      "categories": ["Other", "Tools", "Photo"],
+      "categories": ["Photos", "Hosting"],
       "description": "Chevereto is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes. Please note that this offers only the free Chevereto version..",
       "env": [
         {
@@ -1889,25 +1868,6 @@
       ]
     },
     {
-      "categories": ["Other", "Tools"],
-      "description": "Embystat is a personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.",
-      "image": "lscr.io/linuxserver/embystat:latest",
-      "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/embystat.png",
-      "name": "embystat",
-      "note": "Access the ui at your-ip:6555. Follow the setup wizard on initial install. Then configure the required services.",
-      "platform": "linux",
-      "ports": ["6555:6555/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "EmbyStat",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/EmbyStat",
-          "container": "/config"
-        }
-      ]
-    },
-    {
       "categories": ["Music"],
       "description": null,
       "env": [
@@ -2092,7 +2052,7 @@
       ]
     },
     {
-      "categories": ["Video", "Music", "Photos"],
+      "categories": ["Video", "Music", "Photos", "Hosting"],
       "description": "Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.",
       "env": [
         {
@@ -2278,40 +2238,6 @@
         {
           "bind": "/portainer/Files/AppData/Config/LibreSpeed",
           "container": "/config"
-        }
-      ]
-    },
-    {
-      "categories": ["Cloud", "Web", "Management", "Photos"],
-      "description": "Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.",
-      "env": [
-        {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "default": "100",
-          "label": "PGID",
-          "name": "PGID"
-        }
-      ],
-      "image": "lscr.io/linuxserver/lychee:latest",
-      "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/lychee-icon.png",
-      "name": "lychee",
-      "platform": "linux",
-      "ports": ["80/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "Lychee",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/Lychee",
-          "container": "/config"
-        },
-        {
-          "bind": "/portainer/Pictures",
-          "container": "/pictures"
         }
       ]
     },
@@ -2646,48 +2572,6 @@
       ]
     },
     {
-      "categories": ["Cloud", "Productivity", "Tools", "Other", "Web"],
-      "description": "Where are your photos and documents? With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices.",
-      "env": [
-        {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "default": "100",
-          "label": "PGID",
-          "name": "PGID"
-        },
-        {
-          "label": "TZ",
-          "name": "TZ"
-        },
-        {
-          "label": "DATABASE_PASSWORD",
-          "name": "DATABASE_PASSWORD"
-        },
-        {
-          "label": "MYSQL_ROOT_PASSWORD",
-          "name": "MYSQL_ROOT_PASSWORD"
-        },
-        {
-          "label": "PORT",
-          "name": "PORT"
-        }
-      ],
-      "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/nextcloud-icon.png",
-      "name": "nextcloud",
-      "note": "The database user is nextcloud and the database is nextcloud_db. The host of the database will be located at the bottom of the DB conotainer in portainer.",
-      "platform": "linux",
-      "repository": {
-        "stackfile": "Stacks/nextcloud.yml",
-        "url": "https://github.com/GeekTekRob/PortainerTemplates"
-      },
-      "title": "Nextcloud",
-      "type": 3
-    },
-    {
       "categories": ["Web", "Proxy"],
       "description": "Nginx is a web server with a strong focus on high concurrency, performance and low memory usage. It can also act as a reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer and an HTTP cache.",
       "env": [
@@ -2929,7 +2813,7 @@
       ]
     },
     {
-      "categories": ["Photos"],
+      "categories": ["Photos", "Hosting"],
       "description": "A simple, easy way to turn a photo album into a webgallery",
       "env": [
         {
@@ -2982,101 +2866,6 @@
         {
           "bind": "/portainer/Files/AppData/Config/Snibox",
           "container": "/app/db/database"
-        }
-      ]
-    },
-    {
-      "categories": ["Wiki"],
-      "description": "Bookstack is a free and open source Wiki designed for creating beautiful documentation. Feautring a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease.",
-      "env": [
-        {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "default": "100",
-          "label": "PGID",
-          "name": "PGID"
-        },
-        {
-          "label": "TZ",
-          "name": "TZ"
-        },
-        {
-          "label": "DATABASE_PASSWORD",
-          "name": "DATABASE_PASSWORD"
-        },
-        {
-          "label": "MYSQL_ROOT_PASSWORD",
-          "name": "MYSQL_ROOT_PASSWORD"
-        },
-        {
-          "label": "PORT",
-          "name": "PORT"
-        }
-      ],
-      "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/bookstack2.png",
-      "note": "Default login is admin@admin.com with a password of password. The database created is called bookstackapp and the database user is called bookstack",
-      "platform": "linux",
-      "repository": {
-        "stackfile": "Stacks/bookstack.yml",
-        "url": "https://github.com/GeekTekRob/PortainerTemplates"
-      },
-      "title": "Bookstack",
-      "type": 3
-    },
-    {
-      "categories": ["Other", "Tools", "Photo"],
-      "description": "Chevereto is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes. Please note that this offers only the free Chevereto version..",
-      "env": [
-        {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "default": "100",
-          "label": "PGID",
-          "name": "PGID"
-        },
-        {
-          "label": "CHEVERETO_DB_HOST",
-          "name": "CHEVERETO_DB_HOST",
-          "set": ""
-        },
-        {
-          "label": "CHEVERETO_DB_USERNAME",
-          "name": "CHEVERETO_DB_USERNAME",
-          "set": ""
-        },
-        {
-          "label": "CHEVERETO_DB_PASSWORD",
-          "name": "CHEVERETO_DB_PASSWORD",
-          "set": ""
-        },
-        {
-          "label": "CHEVERETO_DB_NAME",
-          "name": "CHEVERETO_DB_NAME",
-          "set": ""
-        },
-        {
-          "label": "CHEVERETO_DB_PREFIX",
-          "name": "CHEVERETO_DB_PREFIX",
-          "set": ""
-        }
-      ],
-      "image": "nmtan/chevereto:latest",
-      "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/Chevereto.png",
-      "name": "Chevereto",
-      "platform": "linux",
-      "ports": ["80/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "Chevereto",
-      "type": 1,
-      "volumes": [
-        {
-          "container": "/var/www/html/images"
         }
       ]
     },
@@ -3519,87 +3308,6 @@
       "restart_policy": "unless-stopped",
       "title": "Duck DNS",
       "type": 1
-    },
-    {
-      "categories": ["Backup", "Cloud", "Other", "Productivity", "Tools"],
-      "description": "Free backup software to store encrypted backups online, Duplicati works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive and S3, Google Drive, box.com, Mega, hubiC and many others.",
-      "env": [
-        {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "default": "100",
-          "label": "PGID",
-          "name": "PGID"
-        }
-      ],
-      "image": "lscr.io/linuxserver/duplicati:latest",
-      "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/duplicati-icon.png",
-      "name": "duplicati",
-      "platform": "linux",
-      "ports": ["8200:8200/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "Duplicati",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/Duplicati",
-          "container": "/config"
-        },
-        {
-          "container": "/tmp"
-        },
-        {
-          "container": "/backups"
-        },
-        {
-          "container": "/source"
-        }
-      ]
-    },
-    {
-      "categories": ["Video", "Music", "Photos"],
-      "description": "Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.",
-      "env": [
-        {
-          "default": "1000",
-          "label": "PUID",
-          "name": "PUID"
-        },
-        {
-          "default": "100",
-          "label": "PGID",
-          "name": "PGID"
-        },
-        {
-          "label": "TZ",
-          "name": "TZ"
-        }
-      ],
-      "image": "lscr.io/linuxserver/emby:latest",
-      "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/emby.png",
-      "name": "emby",
-      "platform": "linux",
-      "ports": ["8096:8096/tcp", "8920:8920/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "Emby",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/Emby",
-          "container": "/config"
-        },
-        {
-          "bind": "/portainer/TV",
-          "container": "/data/tvshows"
-        },
-        {
-          "bind": "/portainer/Movies",
-          "container": "/data/movies"
-        }
-      ]
     },
     {
       "categories": ["Other", "Tools"],
@@ -4891,24 +4599,6 @@
     },
     {
       "categories": ["Other", "Tools"],
-      "description": "Self-hosted, ad-free, privacy-respecting Google metasearch engine.",
-      "image": "benbusby/whoogle-search:latest",
-      "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/whoogle.png",
-      "name": "whoogle",
-      "platform": "linux",
-      "ports": ["5001:5000/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "Whoogle",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/Whoogle",
-          "container": "/config"
-        }
-      ]
-    },
-    {
-      "categories": ["Other", "Tools"],
       "description": "Wikijs A modern, lightweight and powerful wiki app built on NodeJS.",
       "image": "lscr.io/linuxserver/wikijs:latest",
       "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/wikijs.png",
@@ -4926,40 +4616,6 @@
         {
           "bind": "/portainer/Files/AppData/Config/Wikijs/data",
           "container": "/data"
-        }
-      ]
-    },
-    {
-      "categories": ["Other", "Downloaders"],
-      "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend.",
-      "image": "tzahi12345/youtubedl-material:latest",
-      "logo": "https://raw.githubusercontent.com/GeekTekRob/PortainerTemplates/main/Images/ytdlm.png",
-      "name": "youtubedl-material",
-      "platform": "linux",
-      "ports": ["17442:17442/tcp"],
-      "restart_policy": "unless-stopped",
-      "title": "YouTubeDL-Material",
-      "type": 1,
-      "volumes": [
-        {
-          "bind": "/portainer/Files/AppData/Config/YTDLM",
-          "container": "/app/appdata"
-        },
-        {
-          "bind": "/portainer/Files/AppData/Youtube/Video",
-          "container": "/app/video"
-        },
-        {
-          "bind": "/portainer/Files/AppData/Youtube/Subscriptions",
-          "container": "/app/subscriptions"
-        },
-        {
-          "bind": "/portainer/Files/AppData/Youtube/Users",
-          "container": "/app/users"
-        },
-        {
-          "bind": "/portainer/Files/AppData/Youtube/Audio",
-          "container": "/app/audio"
         }
       ]
     },
@@ -5103,7 +4759,7 @@
       "platform": "linux",
       "ports": ["8112:8112/tcp"],
       "restart_policy": "unless-stopped",
-      "title": "Deluge openvpn",
+      "title": "Deluge With OpenVPN",
       "type": 1,
       "volumes": [
         {
