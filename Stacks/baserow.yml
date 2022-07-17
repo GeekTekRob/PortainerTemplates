@@ -1,0 +1,14 @@
+---
+version: "2.1"
+services:
+  baserow:
+    image: baserow/baserow:1.9.1
+    container_name: baserow
+    environment:
+      - TZ=Europe/Athens
+    volumes:
+      - /portainer/Files/AppData/Config/baserow:/baserow/data
+    ports:
+      - 280:80  #changed from default 80
+      - 2443:443
+    restart: unless-stopped
